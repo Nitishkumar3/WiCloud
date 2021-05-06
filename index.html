@@ -1,0 +1,199 @@
+<!--
+Wi-Cloud - Project by Nitishkumar
+Email - nitishkumar.blog@gmail.com
+Telegram - https://t.me/cyberking3
+Instagram - https://www.instagram.com/_cyber_king_003_
+Github - https://github.com/iamnkumar
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wi-Cloud</title>
+<meta charset='utf-8'>
+<link rel="shortcut icon" href="images/fav.ico" type="image/x-icon"> 
+<link rel="stylesheet" href="css/materialize.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery_1.5.2.js"></script>
+<script src="js/uploader.js"></script> 
+<script>
+$(document).ready(function()
+{
+	new vpb_multiple_file_uploader
+	({
+		vpb_form_id: "form_id",
+		autoSubmit: true,
+		vpb_server_url: "upload.php" 
+	});
+});
+</script>
+<style>
+@font-face {font-family: 'Poppins';font-style: normal;font-weight: 200;font-display: swap;src: url(fonts/poppins.woff2) format('woff2');}
+@font-face {font-family: 'Roboto';font-style: normal;font-weight: 400;font-display: swap;src: url(fonts/roboto.woff2) format('woff2');}
+@font-face {font-family: 'Share Tech Mono';font-style: normal;font-weight: 400;font-display: swap;src: url(fonts/share-tech-mono.woff2) format('woff2');}
+body {font-family: 'Roboto', sans-serif;}
+.header {font-family: "Poppins", sans-serif;font-size: 15vmin;text-align: center;opacity: 0.4;}
+.bg-gradient1 span,.bg-gradient1:before {background: #39C2C9;background: linear-gradient(180deg, #45c93e 0%, #40c939 80%, #31cc29 100%);}
+.bg-gradient2 span,.bg-gradient2:before {background: #fa7e29;background: linear-gradient(180deg, #fa7e29 0%, #F6682F 80%, #F6682F 100%);}
+a {text-decoration: none;}
+a:hover, a:focus, a:active {text-decoration: none;}
+.fancy-button {display: inline-block;margin: 20px;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 16px;letter-spacing: 0.07em;text-transform: uppercase;line-height: 24px;color: #ffffff;position: relative;}
+.fancy-button.bg-gradient1 {text-shadow: 0px 0px 1px #298025;}
+.fancy-button.bg-gradient2 {text-shadow: 0px 0px 1px #BF4C28;}
+.fancy-button span {display: inline-block;padding: 16px 20px;border-radius: 50em;position: relative;z-index: 2;will-change: transform, filter;transform-style: preserve-3d;transition: all 0.3s ease-out;}
+.fancy-button:before {content: "";display: inline-block;height: 40px;position: absolute;bottom: -1px;left: 10px;right: 10px;z-index: -1;border-radius: 2em;filter: blur(14px) brightness(0.9);transform-style: preserve-3d;transition: all 0.3s ease-out;}
+.fancy-button:focus {color: #ffffff;}
+.fancy-button:hover {color: #ffffff;}
+.fancy-button:hover span {filter: brightness(0.9) contrast(1.2);transform: scale(0.96);}
+.fancy-button:hover:before {bottom: 3px;filter: blur(6px) brightness(0.8);}
+.fancy-button:active span {filter: brightness(0.75) contrast(1.7);}
+:root{--primary:#263238;--primary-light:#4F5B62;--primary-dark:#000A12;--secondary:#DD2C00;--secondary-light:#FF6434;--secondary-dark:#A30000;--tertiary:#2962FF;--tertiary-light:#768FFF;--tertiary-dark:#0039CB;--primary-text-on-primary:white;--primary-text-on-primary-light:white;--primary-text-on-primary-dark:white;--primary-text-on-secondary:white;--primary-text-on-secondary-light:black;--primary-text-on-secondary-dark:white;--primary-text-on-tertiary:white;--primary-text-on-tertiary-light:black;--primary-text-on-tertiary-dark:white;--primary-text-on-light:black;--primary-text-on-dark:white;--secondary-text-on-primary:rgba(255, 255, 255, 0.5);--secondary-text-on-primary-light:rgba(255, 255, 255, 0.71);--secondary-text-on-primary-dark:rgba(255, 255, 255, 0.45);--secondary-text-on-secondary:rgba(255, 255, 255, 0.97);--secondary-text-on-secondary-light:rgba(0, 0, 0, 0.68);--secondary-text-on-secondary-dark:rgba(255, 255, 255, 0.71);--secondary-text-on-tertiary:rgba(255, 255, 255, 0.94);--secondary-text-on-tertiary-light:rgba(0, 0, 0, 0.68);--secondary-text-on-tertiary-dark:rgba(255, 255, 255, 0.66);--secondary-text-on-light:rgba(0, 0, 0, 0.56);--secondary-text-on-dark:rgba(255, 255, 255, 0.57);--disabled-text-on-primary:rgba(255, 255, 255, 0.35);--disabled-text-on-primary-light:rgba(255, 255, 255, 0.49);--disabled-text-on-primary-dark:rgba(255, 255, 255, 0.34);--disabled-text-on-secondary:rgba(255, 255, 255, 0.72);--disabled-text-on-secondary-light:rgba(0, 0, 0, 0.5);--disabled-text-on-secondary-dark:rgba(255, 255, 255, 0.53);--disabled-text-on-tertiary:rgba(255, 255, 255, 0.65);--disabled-text-on-tertiary-light:rgba(0, 0, 0, 0.5);--disabled-text-on-tertiary-dark:rgba(255, 255, 255, 0.48);--disabled-text-on-light:rgba(0, 0, 0, 0.43);--disabled-text-on-dark:rgba(255, 255, 255, 0.39);--error-text-on-light:#b71c1c;--error-text-on-dark:#ef9a9a;--border-color-on-light:rgba(0, 0, 0, 0.12);--border-color-on-dark:rgba(255, 255, 255, 0.12);--border-width-small:0.0625rem;--border-width-medium:0.1875rem;--border-secondary-color-on-light:rgba(0, 0, 0, 0.38);--border-secondary-color-on-dark:rgba(255, 255, 255, 0.5);--border-on-light:rgba(0, 0, 0, 0.12) solid 0.0625rem;--border-on-dark:rgba(255, 255, 255, 0.12) solid 0.0625rem;--primary-background:#EEEEEE;--secondary-background:#424242;--root-font-size:16}
+:root {font-size: calc(var(--root-font-size) * 1px);}
+button {-webkit-appearance: none;-moz-appearance: none;appearance: none;margin: 0;padding: 0;border: none;background: transparent;}
+svg {width: 1.5rem;height: 1.5rem;color: currentColor;}
+svg path {fill: currentColor;}
+[hidden] {display: none !important;visibility: hidden !important;}
+.container {width: 100%;max-width: 56.25rem;margin: 1rem;padding: 1rem;background-color: white;border-radius: 0.25rem;border: var(--border-on-light);box-shadow: 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2), 0 0.125rem 0.125rem 0rem rgba(0, 0, 0, 0.14), 0 0.0625rem 0.3125rem 0rem rgba(0, 0, 0, 0.12);}
+.file-input {display: flex;margin: 0 0 0.25rem;padding: 0.5rem 0.75rem 0.1875rem;color: var(--primary-text-on-light);border: var(--border-on-light);border-radius: 0.25rem;}
+.file-input__label {margin-left: -0.25rem;padding: 0 0.25rem;font-size: 0.875rem;color: var(--secondary-text-on-light);}
+.file-input__input {display: flex;align-items: flex-start;}
+.file-input:focus-within {border-color: var(--tertiary-dark);}
+.file-input:focus-within .file-input__label {color: var(--tertiary-dark);}
+.file-input__helper {margin-left: 0.8125rem;font-size: 0.75rem;color: var(--secondary-text-on-light);}
+.input {position: relative;}
+.input__left {display: flex;align-items: center;margin-bottom: 0.5rem;}
+.input__no-file {margin-right: 1rem;white-space: nowrap;}
+.input__choose {display: inline-flex;align-items: center;min-height: 2.125rem;margin-right: 1rem;padding: 0.25rem 1rem;color: var(--primary-text-on-tertiary);text-transform: uppercase;font-size: 0.875rem;font-weight: 500;letter-spacing: 0.078125rem;background: var(--tertiary);border-radius: 0.25rem;white-space: nowrap;cursor: pointer;}
+.input__choose:focus {background-color: var(--tertiary-dark);box-shadow: 0 0 0 0.1875rem rgba(0, 0, 0, 0.2);}
+.input__remove {position: absolute;font-size: 0;right: 0;top: 0.25rem;color: var(--secondary-text-on-light);border-radius: 50%;}
+.input__remove:focus {box-shadow: 0 0 0 0.1875rem rgba(0, 0, 0, 0.2);}
+.input__remove:active {color: var(--primary-text-on-light);}
+.chip {display: inline-flex;justify-content: space-between;height: 2rem;margin-right: 0.5rem;margin-bottom: 0.5rem;padding: 0 0.25rem 0 0.75rem;align-items: center;background-color: #fafafa;border: var(--border-on-light);border-radius: 1.0625rem;white-space: nowrap;}
+.chip__container {padding-right: 1.5rem;}
+.chip__text {display: inline-block;margin-right: 0.5rem;font-size: 0.875rem;}
+input[type=submit]{background-color: #2962ff;border: none;color: white;text-decoration: none;margin: 4px 2px;cursor: pointer;font-size: 2.5vmin;padding: 0.5rem 1.5rem;text-transform: uppercase;border-radius: 0.25rem;}
+.emoji {width:3vmin;height:3vmin;}
+.nk{font-family:'Rajdhani', sans-serif;font-size: 3vmin;background-color: red;background-image: linear-gradient(90deg, #138808, #FF9933);background-size: 100%;background-repeat: repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent;-moz-background-clip: text;-moz-text-fill-color: transparent;}
+.text {font-family:'Rajdhani', sans-serif;font-size: 3.5vmin;}
+.foot {font-family: "Share Tech Mono", sans-serif;font-size: 3.5vmin;}
+</style>
+</head>
+<body>
+<center>
+   <span class="header" style="color:blue;text-align:center;">Wi-Cloud</span><br>
+   <a class="fancy-button bg-gradient1" href="view.php"><span>Manage Files</span></a>
+   <a class="fancy-button bg-gradient2" href="stats.php"><span>View Stats</span></a>
+   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" width="0" height="0">
+      <defs>
+         <symbol id="sprite-close" viewBox="0 0 24 24">
+            <title>Remove chip</title>
+            <path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/>
+         </symbol>
+      </defs>
+   </svg>
+   <form name="form_id" id="form_id" action="javascript:void(0);" enctype="multipart/form-data">
+      <div class="container" js-file-manager>
+         <fieldset class="file-input">
+            <legend class="file-input__label">Upload</legend>
+            <label class="file-input__real" hidden>
+            <input type="file" id="applications" multiple js-real-file-input>
+            </label>
+            <div class="file-input__input input input__container">
+               <span class="input__left">
+               <button type="button" class="input__choose" js-fake-file-input>Choose File</button>
+               <span class="input__no-file" js-no-file>No file chosen</span>
+               </span>
+               <span class="input__files chip__container" js-chip-container></span>
+               <button type="button" class="input__remove" hidden js-remove-files>
+                  <svg>
+                     <use xlink:href="#sprite-close"></use>
+                  </svg>
+               </button>
+            </div>
+         </fieldset>
+      </div>
+      <input type="submit" value="Upload">
+   </form>
+   <br>
+   <table class="centered " style="width:80%;" id="add_files">
+      <tbody>	</tbody>
+   </table>
+   <br><br>
+   <span class="foot"><Code>&lt;</Code>Coded<Code>&gt;</Code> by Nitishkumar</span><br>
+   <span class="icons">
+	<a href="mailto:nitishkumar.blog@gmail.com" target="_blank"><img class="emoji" src="./images/mail.png" alt="mail"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://t.me/cyberking3" target="_blank"><img class="emoji" src="./images/telegram.png" alt="telegram"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://www.instagram.com/_cyber_king_003_" target="_blank"><img class="emoji" src="./images/instagram.png" alt="instagram"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/iamnkumar" target="_blank"><img class="emoji" src="./images/github.png" alt="github"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="info.html" target="_blank"><img class="emoji" src="./images/info.svg" alt="info"></a>
+   </span>
+</center>
+<script>
+console.clear();
+const fileManager = document.querySelector('[js-file-manager]');
+class FileManager {
+  static chipTemplate = (text, id) => {
+    return `<span id="${id}" class="chip"><span class="chip__text">${text}</span></span>`;
+  }
+  static generateId = () => {
+    return `chip-${(Math.random()*0xFFFFFF<<0).toString(16)}`;
+  }
+  constructor(containerElement) {
+    this._containerElement = containerElement;
+    this._fakeInput = this._containerElement.querySelector('[js-fake-file-input]');
+    this._realInput = this._containerElement.querySelector('[js-real-file-input]');
+    this._chipContainer = this._containerElement.querySelector('[js-chip-container]');
+    this._noFile = this._containerElement.querySelector('[js-no-file]');
+    this._removeFilesButton = this._containerElement.querySelector('[js-remove-files]');    
+    this._files = [];
+    this._addEventListeners();
+  }
+  _addEventListeners = () => {
+    this._fakeInput.addEventListener('click', this._handleFakeInputClick, false);
+    this._realInput.addEventListener('change', this._handleRealInputChange, false);
+    this._removeFilesButton.addEventListener('click', this._handleRemoveFilesButtonClick, false);
+  }
+  _handleFakeInputClick = () => {
+    if (this._chipContainer.querySelectorAll('.chip').length > 0) {
+      this._removeChips();
+    }
+    this._realInput.click();
+  }
+  _handleRealInputChange = (e) => {
+    if (this._realInput.files.length > 0) {
+      this._toggleNoFile();
+      [...this._realInput.files].forEach(file => {
+        const name = file.name;
+        const id = FileManager.generateId();
+        const chipTemplate = FileManager.chipTemplate(name, id);
+        
+        this._chipContainer.insertAdjacentHTML('beforeend', chipTemplate);
+        
+        const chip = this._chipContainer.querySelector(`#${id}`);
+        
+        const filesObj = { name, id, chip: chip };
+        
+        this._files.push(filesObj);
+      })
+    }
+  }
+  _handleRemoveFilesButtonClick = (e) => {
+    if (this._realInput.files.length) {
+      this._removeChips();
+    }
+  } 
+  _removeChips = () => {
+    const chips = [...this._chipContainer.querySelectorAll('.chip')];
+    this._toggleNoFile();
+    this._files = [];
+    this._chipContainer.innerHTML = '';
+    this._realInput.value = '';
+  }
+  _toggleNoFile = () => {
+    this._noFile.hidden = !this._noFile.hidden;
+    this._removeFilesButton.hidden = !this._removeFilesButton.hidden;
+  }
+}
+const fileManagerReference = new FileManager(fileManager);
+</script>
+</body>
+</html>
