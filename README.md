@@ -6,4 +6,9 @@ Wi-Cloud is a lightweight script for creating a Local Wireless Cloud Server, acc
 
 ## Installation
 
-- Set
+- Set up an Apache / Nginx Webserver and Install PHP. Alternatively use XAMPP for easy setup.
+- Copy Script files to htdocs.
+- Allow Firewall access and Open port 80.
+- Spin up the PHP Server.
+- Get the Local Public IP of the machine. Use the following command in Terminal, Windows - "ipconfig", Linux and Mac - "ifconfig".
+- Connect other devices to the same Network and Use the IP Address to access Dashboard where the files could be managed.
